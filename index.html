@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>Form</title>
+    <link href="style/styles.css" rel="stylesheet">
+</head>
+<body>
+<form class="form" action="https://echo.htmlacademy.ru" method="post">
+    <h1>Keep in touch</h1>
+    <div class="picture">
+        <div class="phone"></div>
+    </div>
+    <div class="group-input-form">
+        <div class="input-form">
+            <input type="text" id="firstname" name="firstname" placeholder="My name is" required>
+        </div>
+        <div class="input-form">
+            <input type="email" id="email" name="email" placeholder="My email is" required>
+        </div>
+    </div>
+    <div class="input-form">
+        <input type="number" id="number" name="number" placeholder="My number is" required>
+    </div>
+    <div class="input-form">
+        <select id="subject" name="subject">
+            <option hidden disabled selected>Subject line</option>
+            <option value="comedy">Comedy</option>
+            <option value="meta-plot">Meta-plot</option>
+            <option value="rebirth">Rebirth</option>
+            <option value="tragedy">Tragedy</option>
+            <option value="quest">Quest</option>
+        </select>
+    </div>
+    <div class="input-form">
+        <textarea id="chat" name="chat" placeholder="I'd like to chat about" rows="10"></textarea>
+    </div>
+    <div class="btn">
+        <button class="submit" type="submit">Send message</button>
+    </div>
+</form>
+</body>
+</html>
